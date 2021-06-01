@@ -1,0 +1,12 @@
+/mnt/d/CODE_commit/test_in_git/Rust/test_proj/target/debug/deps/rand_core-9699d7ae26fc1717.rmeta: /home/bleach/.cargo/registry/src/github.com-1ecc6299db9ec823/rand_core-0.6.2/src/lib.rs /home/bleach/.cargo/registry/src/github.com-1ecc6299db9ec823/rand_core-0.6.2/src/block.rs /home/bleach/.cargo/registry/src/github.com-1ecc6299db9ec823/rand_core-0.6.2/src/error.rs /home/bleach/.cargo/registry/src/github.com-1ecc6299db9ec823/rand_core-0.6.2/src/impls.rs /home/bleach/.cargo/registry/src/github.com-1ecc6299db9ec823/rand_core-0.6.2/src/le.rs /home/bleach/.cargo/registry/src/github.com-1ecc6299db9ec823/rand_core-0.6.2/src/os.rs
+
+/mnt/d/CODE_commit/test_in_git/Rust/test_proj/target/debug/deps/librand_core-9699d7ae26fc1717.rlib: /home/bleach/.cargo/registry/src/github.com-1ecc6299db9ec823/rand_core-0.6.2/src/lib.rs /home/bleach/.cargo/registry/src/github.com-1ecc6299db9ec823/rand_core-0.6.2/src/block.rs /home/bleach/.cargo/registry/src/github.com-1ecc6299db9ec823/rand_core-0.6.2/src/error.rs /home/bleach/.cargo/registry/src/github.com-1ecc6299db9ec823/rand_core-0.6.2/src/impls.rs /home/bleach/.cargo/registry/src/github.com-1ecc6299db9ec823/rand_core-0.6.2/src/le.rs /home/bleach/.cargo/registry/src/github.com-1ecc6299db9ec823/rand_core-0.6.2/src/os.rs
+
+/mnt/d/CODE_commit/test_in_git/Rust/test_proj/target/debug/deps/rand_core-9699d7ae26fc1717.d: /home/bleach/.cargo/registry/src/github.com-1ecc6299db9ec823/rand_core-0.6.2/src/lib.rs /home/bleach/.cargo/registry/src/github.com-1ecc6299db9ec823/rand_core-0.6.2/src/block.rs /home/bleach/.cargo/registry/src/github.com-1ecc6299db9ec823/rand_core-0.6.2/src/error.rs /home/bleach/.cargo/registry/src/github.com-1ecc6299db9ec823/rand_core-0.6.2/src/impls.rs /home/bleach/.cargo/registry/src/github.com-1ecc6299db9ec823/rand_core-0.6.2/src/le.rs /home/bleach/.cargo/registry/src/github.com-1ecc6299db9ec823/rand_core-0.6.2/src/os.rs
+
+/home/bleach/.cargo/registry/src/github.com-1ecc6299db9ec823/rand_core-0.6.2/src/lib.rs:
+/home/bleach/.cargo/registry/src/github.com-1ecc6299db9ec823/rand_core-0.6.2/src/block.rs:
+/home/bleach/.cargo/registry/src/github.com-1ecc6299db9ec823/rand_core-0.6.2/src/error.rs:
+/home/bleach/.cargo/registry/src/github.com-1ecc6299db9ec823/rand_core-0.6.2/src/impls.rs:
+/home/bleach/.cargo/registry/src/github.com-1ecc6299db9ec823/rand_core-0.6.2/src/le.rs:
+/home/bleach/.cargo/registry/src/github.com-1ecc6299db9ec823/rand_core-0.6.2/src/os.rs:
