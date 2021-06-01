@@ -1,6 +1,7 @@
 use std::io;
 
 fn main() {
+    /*
     println!("Guess the number!");
 
     println!("Please input your guess.");
@@ -11,4 +12,20 @@ fn main() {
         .expect("Failed to read line");
 
     println!("You guessed: {}", guess);
+    */
+
+    let x = 5;
+    println!("x={}", x);
+
+    
+    println!("x={}", x);
+
+    let x = 5;
+    println!("x={}", x);
+
+    let x = x + 1;
+    println!("x={}", x);
+
+    let x  = "123";
+    println!("x={}", x);
 }
