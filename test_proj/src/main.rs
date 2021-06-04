@@ -28,4 +28,18 @@ fn main() {
 
     let x  = "123";
     println!("x={}", x);
+
+    let s = String::from("hello, world!");
+    //let s = get_len_of_string(&s);
+
+    println!("len={}", s);
+
+    let ss1 = &s;
+    s.clear();
+    println!("ss1={}", ss1);
+
+}
+
+fn get_len_of_string (str: &String) -> usize {
+    str.len()
 }
