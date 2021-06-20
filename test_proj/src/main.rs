@@ -14,12 +14,7 @@ fn main() {
     println!("You guessed: {}", guess);
     */
 
-    let x = 5;
-    println!("x={}", x);
-
     
-    println!("x={}", x);
-
     let x = 5;
     println!("x={}", x);
 
@@ -35,11 +30,30 @@ fn main() {
     println!("len={}", s);
 
     let ss1 = &s;
-    s.clear();
-    println!("ss1={}", ss1);
+    //s.clear();
+    //println!("ss1={}", ss1);
 
+    let rect = Rect{
+        width: 21,
+        height: 10,
+    };
+
+    println!("the area is {:#?}", rect);
+    println!("the area is {}", rect.area());
 }
 
 fn get_len_of_string (str: &String) -> usize {
     str.len()
+}
+
+#[derive(Debug)]
+struct Rect{
+    width : u32,
+    height: u32,
+}
+
+impl Rect{
+    fn area(&self) ->u32 {
+        self.width * self.height
+    }
 }
