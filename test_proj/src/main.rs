@@ -14,9 +14,10 @@ fn main() {
     println!("You guessed: {}", guess);
     */
 
-    
+    //存在栈上的数据，没有所有权转移，直接拷贝
     let x = 5;
-    println!("x={}", x);
+    let y = x;
+    println!("x={}, y={}", x, y);
 
     let x = x + 1;
     println!("x={}", x);
@@ -62,7 +63,7 @@ fn main() {
     //所有权
     let str1 = String::from("data");
     {
-        let str2 = str1;
+        let str2 = &str1;
     }
     println!("str1 is {}", str1);
 }
