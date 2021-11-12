@@ -27,9 +27,10 @@ fn main() {
     let s = String::from("hello, world!");
     //let s = get_len_of_string(&s);
 
-    println!("len={}", s);
+    
 
-    let ss1 = &s;
+    let _ss1 = &s;
+    println!("len={}", get_len_of_string(&_ss1));
     //s.clear();
     //println!("ss1={}", ss1);
 
@@ -40,6 +41,30 @@ fn main() {
 
     println!("the area is {:#?}", rect);
     println!("the area is {}", rect.area());
+
+    let mut line = String::new();
+    println!("请输入你的名字:");
+    let b1 = std::io::stdin().read_line(&mut line).unwrap();
+    println!("你好 , {}", line);
+    println!("读取的字节数为：{}", b1);
+
+    //循环
+    let mut i = 3;
+    loop{
+        println!("...");
+        i -= 1;
+
+        if i == 0 {
+            break
+        }
+    }
+
+    //所有权
+    let str1 = String::from("data");
+    {
+        let str2 = str1;
+    }
+    println!("str1 is {}", str1);
 }
 
 fn get_len_of_string (str: &String) -> usize {
